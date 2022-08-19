@@ -1,0 +1,6 @@
+@import "./fonts.css";
+@import "tailwindcss/base";
+@import "./global.css";
+@import "/node_modules/slim-select/dist/slimselect.min.css";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

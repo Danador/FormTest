@@ -1,0 +1,28 @@
+body{
+  @apply bg-desert-storm;
+}
+
+.form-select.ss-main {
+	.ss-single-selected{
+		@apply border-0;
+	}
+	.ss-content {
+		.ss-search {
+			input {
+				@apply border outline-none focus:outline-none focus:border-orange focus:shadow-none;
+			}
+		}
+	}
+	.ss-content.ss-open {
+		@apply p-1 py-2 top-14 border border-mantis rounded shadow-[4px_8px_16px_rgba(112,192,91,0.2);] left-0 max-w-[300px] w-full;
+	}
+	.ss-list {
+		@apply border-0;
+		.ss-option {
+			@apply transition-all duration-300 text-mine-shaft hover:text-orange hover:bg-apricot-peach;
+		}
+		.ss-option.ss-disabled {
+			@apply hover:bg-white hover:text-[#dedede];
+		}
+	}
+}
