@@ -21,9 +21,15 @@
 		<AppModal
 			v-if="showModal"
 			@close="showModal = false"
+
 			class="z-50"
 		>
-			<FormRegistration/>
+			<Transition
+				enter-active-class="animate-opacity-enter-active"
+				leave-active-class="animate-opacity-leave-active"
+			>
+				<FormRegistration/>
+			</Transition>
 		</AppModal>
 	</Transition>
 </template>

@@ -72,7 +72,7 @@
 						name="entry.2026011489"
 					/>
 					<label class="grid items-center grid-flow-col mt-4 gap-x-2 max-w-max">
-						<input name="entry.1572629228" class="sr-only peer" type="checkbox">
+						<input name="entry.1572629228" class="sr-only peer" type="checkbox" value="Отсутствует">
 						<span class="flex items-center justify-center w-5 h-5 text-white transition-all duration-300 bg-white rounded peer-checked:bg-mantis peer-checked:ring-mantis peer-disabled:bg-grayscale-light ring-silver ring-1">
 							<svg class="w-3 h-3">
 								<use xlink:href="/icons/all-icons.svg#check"></use>
