@@ -1,5 +1,5 @@
 <template>
-    <div class="container px-5 mx-auto">
+    <div class="container px-2 mx-auto sm:px-5">
 		<div class="grid items-center grid-flow-col mt-6 max-w-max gap-x-4">
 			<a href="/" class="text-black">Главная</a>
 			<svg class="w-6 h-6">
@@ -9,7 +9,7 @@
 		</div>
 		<div class="mt-7">
 			<h1 class="text-surface text-[64px] leading-[96px]"></h1>
-			<ul class="grid w-full grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-3 gap-x-4">
+			<ul class="grid w-full grid-cols-2 pb-10 md:grid-cols-3 xl:grid-cols-4 gap-y-3 gap-x-4">
 				<template v-for="(item, i) in items" :key="item">
 					<li
 						:class="i + 1 === 6 || i + 1 === 8   ? 'col-span-2' : ''"
@@ -66,7 +66,3 @@
         }
 	]
 </script>
-
-<style>
-
-</style>

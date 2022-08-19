@@ -164,6 +164,7 @@
 		{
             "title" : "Телефон",
 			"type" : "tel",
+			"attr": "minlength='11'",
 			"mask": "tel",
 			"value": "phone",
 			"name" : "entry.1100523780"
@@ -171,7 +172,6 @@
 		{
             "title" : "Фамилия",
 			"type" : "text",
-			"attr": "minlength='3'",
 			"value": "lastName",
 			"name" : "entry.1650808696",
 			"pattern": "[^А-Яа-яЁё]"
@@ -179,7 +179,7 @@
 		{
             "title" : "Имя",
 			"type" : "text",
-			"attr": "minlength='3'",
+			"minlenght" : "3",
 			"value": "firstName",
 			"name" : "entry.1106257749",
 			"pattern": "[^А-Яа-яЁё]"
